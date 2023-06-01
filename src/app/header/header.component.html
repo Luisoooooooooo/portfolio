@@ -1,0 +1,8 @@
+<div class="header">
+    <div class="header-logo">
+        <h1><a [routerLink]="['/Home']"><img src="../../assets/img/favicon/asterisk.svg" style="width: 0.75em;"> Luiso Vázquez</a><i class="ri-arrow-right-line"></i></h1>
+    </div>
+    <div class="header-menu">
+        <a [routerLink]="[item]" routerLinkActive="active" *ngFor="let item of menuItemsHeader">{{item}}</a>
+    </div>
+</div>

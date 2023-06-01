@@ -1,0 +1,6 @@
+<p>Projects</p>
+<ul>
+    <a [routerLink]="link.url" routerLinkActive="active" *ngFor="let link of linksWork">
+        <li>{{link.name}}</li>
+    </a>
+</ul>
